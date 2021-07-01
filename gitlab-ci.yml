@@ -1,0 +1,7 @@
+stages:ls
+  - build
+
+build: 
+  stage: build
+  script:
+    - ls
